@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.formDiv {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(54,52,52,1) 66%, rgba(76,77,77,1) 100%);
+  width: 400px;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  box-shadow: -1px 8px 15px 0px rgba(0, 0, 0, 0.44);
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1280px) {
+.formDiv {
+  width: 334px;
+  margin-bottom: 20px;
+}
+}
+
+.alert {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.creditCard {
+    margin-bottom: 10%;
+}
+
+
+.details {
+  font-size: 20px;
+  font-family: 'Montserrat';
+  color: white;
+  padding-bottom: 60px;
+  font-weight: 600;
+}
+
+.info {
+  font-family: 'Montserrat';
+  color: rgba(255,255,255, 0.3);
+  padding-bottom: 10px;
+}
+
+.infoCard {
+  font-family: 'Montserrat';
+  color: rgba(255,255,255, 0.3);
+}
+
+.inputForm {
+  background: transparent;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-radius: 0%;
+}
